@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Ejemplos:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ae8bdd3-96f0-4bad-8800-27744a1a185a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Estructuras_de_datos/calculadoraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Ejemplos_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Ejemplos_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ejemplos/Estructuras_de_datos/calculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ejemplos/Estructuras_de_datos/calculadoraTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ejemplos/Estructuras_de_datos/lista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ejemplos/Estructuras_de_datos/nodo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ejemplos/Estructuras_de_datos/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ejemplos/META-INF/Ejemplos.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Estructuras_de_datos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Estructuras_de_datos/calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Estructuras_de_datos/calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Estructuras_de_datos/calculadoraTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Estructuras_de_datos/lista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Estructuras_de_datos/nodo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Estructuras_de_datos/package.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Ejemplos" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="package-info" />
+        <option value="package.json" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Tag Library Descriptor" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1YxZpBuRQq6CAQHccYQsiCNGWml" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ejemplos" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Estructuras_de_datos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Estructuras_de_datos.Main" />
+      <module name="Ejemplos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Estructuras_de_datos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ejemplos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Estructuras_de_datos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Estructuras_de_datos" />
+      <option name="MAIN_CLASS_NAME" value="Estructuras_de_datos.calculadoraTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculadoraTest.multiplicacion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ejemplos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Estructuras_de_datos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Estructuras_de_datos" />
+      <option name="MAIN_CLASS_NAME" value="Estructuras_de_datos.calculadoraTest" />
+      <option name="METHOD_NAME" value="multiplicacion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculadoraTest.resta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ejemplos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Estructuras_de_datos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Estructuras_de_datos" />
+      <option name="MAIN_CLASS_NAME" value="Estructuras_de_datos.calculadoraTest" />
+      <option name="METHOD_NAME" value="resta(int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculadoraTest.suma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ejemplos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Estructuras_de_datos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Estructuras_de_datos" />
+      <option name="MAIN_CLASS_NAME" value="Estructuras_de_datos.calculadoraTest" />
+      <option name="METHOD_NAME" value="suma(int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejemplos.jar" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Ejemplos_jar/Ejemplos.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.calculadoraTest" />
+        <item itemvalue="JUnit.calculadoraTest.multiplicacion" />
+        <item itemvalue="JUnit.calculadoraTest.suma" />
+        <item itemvalue="JUnit.calculadoraTest.resta" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ae8bdd3-96f0-4bad-8800-27744a1a185a" name="Default Changelist" comment="" />
+      <created>1583886389030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583886389030</updated>
+      <workItem from="1583886402192" duration="624000" />
+      <workItem from="1583893350473" duration="2684000" />
+      <workItem from="1583902534742" duration="353000" />
+      <workItem from="1583907401127" duration="4779000" />
+      <workItem from="1583912899235" duration="1994000" />
+      <workItem from="1583947907501" duration="4015000" />
+      <workItem from="1583967944949" duration="3547000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="386" y="28" width="642" height="737" key="#Ejemplos.jar" timestamp="1583910207310">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="386" y="28" width="642" height="737" key="#Ejemplos.jar/59.27.1307.741@59.27.1307.741" timestamp="1583910207310" />
+    <state x="307" y="58" width="848" height="677" key="#Project_Structure" timestamp="1583893385881">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="307" y="58" width="848" height="677" key="#Project_Structure/59.27.1307.741@59.27.1307.741" timestamp="1583893385881" />
+    <state x="258" y="54" width="898" height="684" key="#calculadoraTest" timestamp="1583950470885">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="258" y="41" width="898" height="710" key="#calculadoraTest.suma" timestamp="1583913865268">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="258" y="41" width="898" height="710" key="#calculadoraTest.suma/59.27.1307.741@59.27.1307.741" timestamp="1583913865268" />
+    <state x="258" y="54" width="898" height="684" key="#calculadoraTest/59.27.1307.741@59.27.1307.741" timestamp="1583950470885" />
+    <state x="170" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583910273952">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="170" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/59.27.1307.741@59.27.1307.741" timestamp="1583910273952" />
+    <state x="159" y="125" width="1107" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583950740770">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="159" y="125" width="1107" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/59.27.1307.741@59.27.1307.741" timestamp="1583950740770" />
+    <state x="423" y="201" width="603" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583970502440">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="423" y="201" width="603" height="390" key="#com.intellij.fileTypes.FileTypeChooser/59.27.1307.741@59.27.1307.741" timestamp="1583970502440" />
+    <state x="435" y="183" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583950947717">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="435" y="183" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/59.27.1307.741@59.27.1307.741" timestamp="1583950947717" />
+    <state x="495" y="140" width="424" height="513" key="FileChooserDialogImpl" timestamp="1583968910207">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="495" y="140" width="424" height="513" key="FileChooserDialogImpl/59.27.1307.741@59.27.1307.741" timestamp="1583968910207" />
+    <state width="1261" height="60" key="GridCell.Tab.0.bottom" timestamp="1583969140433">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state width="1261" height="60" key="GridCell.Tab.0.bottom/59.27.1307.741@59.27.1307.741" timestamp="1583969140433" />
+    <state width="1261" height="60" key="GridCell.Tab.0.center" timestamp="1583969140432">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state width="1261" height="60" key="GridCell.Tab.0.center/59.27.1307.741@59.27.1307.741" timestamp="1583969140432" />
+    <state width="1261" height="60" key="GridCell.Tab.0.left" timestamp="1583969140431">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state width="1261" height="60" key="GridCell.Tab.0.left/59.27.1307.741@59.27.1307.741" timestamp="1583969140431" />
+    <state width="1261" height="60" key="GridCell.Tab.0.right" timestamp="1583969140432">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state width="1261" height="60" key="GridCell.Tab.0.right/59.27.1307.741@59.27.1307.741" timestamp="1583969140432" />
+    <state x="245" y="247" width="924" height="300" key="Performance.Activity.Monitor" timestamp="1583886602434">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="245" y="247" width="924" height="300" key="Performance.Activity.Monitor/59.27.1307.741@59.27.1307.741" timestamp="1583886602434" />
+    <state x="250" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1583969795892">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="250" y="27" width="1024" height="741" key="SettingsEditor/59.27.1307.741@59.27.1307.741" timestamp="1583969795892" />
+    <state x="484" y="176" width="446" height="440" key="chooseDestDirectoryDialog" timestamp="1583970014862">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="484" y="176" width="446" height="440" key="chooseDestDirectoryDialog/59.27.1307.741@59.27.1307.741" timestamp="1583970014862" />
+    <state x="368" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583947921502">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="368" y="225" key="com.intellij.ide.util.TipDialog/59.27.1307.741@59.27.1307.741" timestamp="1583947921502" />
+    <state x="384" y="292" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583911420564">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="384" y="292" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/59.27.1307.741@59.27.1307.741" timestamp="1583911420564" />
+    <state x="472" y="71" width="470" height="650" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583912992338">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="472" y="71" width="470" height="650" key="com.intellij.testIntegration.createTest.CreateTestDialog/59.27.1307.741@59.27.1307.741" timestamp="1583912992338" />
+    <state x="0" y="27" width="869" height="969" key="find.popup" timestamp="1583969644054">
+      <screen x="59" y="27" width="1307" height="741" />
+    </state>
+    <state x="0" y="27" width="869" height="969" key="find.popup/59.27.1307.741@59.27.1307.741" timestamp="1583969644054" />
+  </component>
+</project>
