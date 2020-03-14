@@ -2,7 +2,7 @@ addons:
   sonarcloud:
     organization: "daval03"
     token:
-      secure: "63e8a101aa248806d7749de41982cf3be977b5e0"
+      secure: "idQIP++uKee5pNCXTiXksnwJUVTh2EV6nuJ0P+lB6ylSjqHu/s1uQEmQc7W2TMbasEVs9NFwIqeMOjvaGZ0SDH/OKkw+1Dzcmem+naK5iVUnvX40JAaOZ9ghwP3BjSRRHkJ5jblg9HnQ05wSUQCveOgSla31lInik24keI93TEPzl0YATHhWUrdyRP/1B+xOqIx46t0pnyYfMXr4wLzJF9qxem+Wc0H9v4jwKaveXrMnMJUj5HilzhZD6Oce8m8NE54k6vF0lIEwRxv69+GzCe9O13AT8h6fRWxReEN0JVcwGZ+n0twuyu5gWJq6YYMpwyNqIRBQWDVxEkGDPd+hZA0ipjyzx/1Hzzfrac2xiZW+hdsXzT79pRnKMLUrFM3uhhNIT6BW9SaGmHOiDzTlhEmbtqgbxwwzZPNuxNPGROZW7RQZNCk7xQh+2vlQteTDvyT8YCxWqd3CDafb9NFV9yEWX6TG9TtbDq80QoEv80/NRowczSw2R/TDr7N3eXZG8DB2ccLe1QYNbjLH9ToIu8zlS94wuTwugpfWGb4TZt88USC3/3JiGoyYVVWwxTf7fnXykYjNa7QlYN3yCXsevdFmJkqQF8hqYM9ikn548GkX0lYewJ77ik+SiiAv1LlXvKJY9hTybMUCy/lguQzFlb+Ij1FjwcK+JjHgrNErSy8="
 language:
   java
 script:
