@@ -6,4 +6,5 @@ addons:
 language:
   java
 script:
+  - ant dist
   - sonar-scanner
