@@ -34,7 +34,7 @@
         <junitlauncher>
             <classpath>
                 <pathelement location="bin"/>
-                <fileset dir="lib-test">
+                <fileset dir="lib">
                     <include name="**/*.jar"/>
                 </fileset>
             </classpath>
