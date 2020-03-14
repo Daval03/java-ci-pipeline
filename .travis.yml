@@ -2,7 +2,7 @@ addons:
   sonarcloud:
     organization: "java-ci-pipeline"
     token:
-      secure: "c97e66ab39b06af32e65e69c15e8f2033cee3f8c"
+      secure: "abcdef0123456789"
 language:
   java
 script:
