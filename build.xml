@@ -29,23 +29,6 @@
             </classpath>
         </javac>
     </target>
-
-    <target name="test" depends="compile" description="run the unit tests">
-        <junitlauncher>
-            <classpath>
-                <pathelement location="bin"/>
-                <fileset dir="lib">
-                    <include name="**/*.jar"/>
-                </fileset>
-            </classpath>
-            <testclasses outputdir="${junit-out}">
-                <fileset dir="${build}"/>
-                <listener type="legacy-brief" sendSysOut="true"/>
-                <listener type="legacy-xml" sendSysErr="true" sendSysOut="true"/>
-
-            </testclasses>
-        </junitlauncher>
-    </target>
     <target name="dist" depends="compile" description="generate the distribution">
         <buildnumber/>
         <mkdir dir="${dist}"/>
