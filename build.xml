@@ -8,7 +8,7 @@
     <property name="test" location="test"/>
     <property name="version" value="1.0"/>
     <property name="junit-out" location="junit-out"/>
-    <property name="sonar.organization" value="daval03"/>
+    <property name="sonar.organization" value="java-ci-pipeline"/>
     <property name="sonar.projectKey" value="Daval03_java-ci-pipeline"/>
     <property name="sonar.sources" value="."/>
     <property name="sonar.host.url" value="https://sonarcloud.io"/>
@@ -19,6 +19,7 @@
         <mkdir dir="${build}"/>
         <mkdir dir="${bin}"/>
     </target>
+    
     <target name="compile" depends="init" description="compile the source">
         <javac srcdir="${src}" destdir="${build}" includeantruntime="no"/>
         <javac srcdir="${test}" destdir="${bin}" includeantruntime="no" nowarn="yes" debug="true">
@@ -28,11 +29,7 @@
                 </fileset>
             </classpath>
         </javac>
-    </target>
-    <target name="dist" depends="compile" description="generate the distribution">
-        <buildnumber/>
-        <mkdir dir="${dist}"/>
-        <jar destfile="${dist}/calculadora-${version}.${build.number}.jar" basedir="${build}"/>
+        
     </target>
     <target name="test" depends="compile" description="run the unit tests">
         <junitlauncher>
@@ -48,8 +45,15 @@
                 <listener type="legacy-xml" sendSysErr="true" sendSysOut="true"/>
 
             </testclasses>
-        </junitlauncher>
+        </junitlauncher>    
+        
     </target> 
+    <target name="dist" depends="compile" description="generate the distribution">
+        <buildnumber/>
+        <mkdir dir="${dist}"/>
+        <jar destfile="${dist}/java-ci-pipeline-${version}.${build.number}.jar" basedir="${build}"/>
+    </target> 
+    
     <target name="clean" description="clean up">
         <delete dir="${build}"/>
         <delete dir="${dist}"/>
