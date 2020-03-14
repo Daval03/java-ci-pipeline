@@ -12,7 +12,7 @@
     <property name="sonar.projectKey" value="Daval03_java-ci-pipeline"/>
     <property name="sonar.sources" value="."/>
     <property name="sonar.host.url" value="https://sonarcloud.io"/>
-    <property name="sonar.login" value="abcdef01234567892"/>
+    <property name="sonar.login" value="e0cca2b1dfac24c7db5f4e82120a174a86019624"/>
 
     <target name="init">
         <tstamp/>
