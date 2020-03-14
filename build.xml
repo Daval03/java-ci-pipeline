@@ -8,7 +8,7 @@
     <property name="test" location="test"/>
     <property name="version" value="1.0"/>
     <property name="junit-out" location="junit-out"/>
-    <property name="sonar.organization" value="java-ci-pipeline"/>
+    <property name="sonar.organization" value="daval03"/>
     <property name="sonar.projectKey" value="Daval03_java-ci-pipeline"/>
     <property name="sonar.sources" value="."/>
     <property name="sonar.host.url" value="https://sonarcloud.io"/>
