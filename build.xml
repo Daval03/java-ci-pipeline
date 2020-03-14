@@ -13,7 +13,7 @@
     <property name="sonar.sources" value="."/>
     <property name="sonar.host.url" value="https://sonarcloud.io"/>
     <property name="sonar.login" value="e0cca2b1dfac24c7db5f4e82120a174a86019624"/>
-
+    
     <target name="init">
         <tstamp/>
         <mkdir dir="${build}"/>
@@ -34,7 +34,22 @@
         <mkdir dir="${dist}"/>
         <jar destfile="${dist}/calculadora-${version}.${build.number}.jar" basedir="${build}"/>
     </target>
+    <target name="test" depends="compile" description="run the unit tests">
+        <junitlauncher>
+            <classpath>
+                <pathelement location="bin"/>
+                <fileset dir="lib">
+                    <include name="**/*.jar"/>
+                </fileset>
+            </classpath>
+            <testclasses outputdir="${junit-out}">
+                <fileset dir="${build}"/>
+                <listener type="legacy-brief" sendSysOut="true"/>
+                <listener type="legacy-xml" sendSysErr="true" sendSysOut="true"/>
 
+            </testclasses>
+        </junitlauncher>
+    </target> 
     <target name="clean" description="clean up">
         <delete dir="${build}"/>
         <delete dir="${dist}"/>
