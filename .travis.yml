@@ -2,7 +2,7 @@ addons:
   sonarcloud:
     organization: "java-ci-pipeline"
     token:
-      secure: "nzA1SJnk1ParbLcRtxlWgS0ZuEEDdIqvlMUKDgAnJQdlyNHyy+FVydXF5vBHC0uVQRlsz4URCU16SphXD28ygMlnAJ27TP844gpM5f/rGtF84TbDVflAY/2/De66+HQaW6fCEeJyMTWaO4X4w4kL0Wgmipl1e5rHY+lSNotBFgAuOZ0ZRY2q7hIhXxVH8eXIqnursNDF4w3A7TD3aZKtxi9FtFoY85BOJHrxeqhuXtGkzQOlHB43df0OEh+F7MM+O2V8y/2sZtOoKfhEaBTKS/TtlWtbk2ePTmy0qtdBKJ0Tp49to0z9aWuv3wfVB8ozNuu4jdo/lwmyh5h+2p/fLzRv7/QiMvl9bnL3cHnljwfDaMGzkMFmA5f8Dc4R3tbTmYBATgMR+3ykJkAfwhPfScsZWncfKOAzBzPp1V+7JZielLkOb8tGDlNWlpVGMOKE+/P2Z3KkkxuzBRifRa/IqMRs6DJBvyBWgMDkXvyuDD3FNGv725UtI1Q8ERS5Xq4v14/m2BYc0NTELd7lBRhFfNx9qJ5kbIrHXo26AvnbXc6Sc7zGKi9LjRzyQlHvDjgH+pOC1JsJUXRZbxEjtHketfwUff9jvavEvlBUCxZXXZ9EzT4rvVvMNAinhdNjv7DCJmzZT9/I+5ejT0Ztk/Oc32GYx48U0qxIQOFt1qwkUCI="
+      secure: "63e8a101aa248806d7749de41982cf3be977b5e0"
 language:
   java
 script:
