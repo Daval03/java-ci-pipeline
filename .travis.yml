@@ -1,6 +1,6 @@
 addons:
   sonarcloud:
-    organization: "java-ci-pipeline"
+    organization: "daval03"
     token:
       secure: "63e8a101aa248806d7749de41982cf3be977b5e0"
 language:
