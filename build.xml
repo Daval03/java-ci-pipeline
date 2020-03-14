@@ -1,0 +1,66 @@
+<project name="Calculadora" default="dist" basedir="." xmlns:sonar="antlib:org.sonar.ant">
+    <description>
+        Builds a Jar file to pack this artifact
+    </description>
+    <property name="src" location="src"/>
+    <property name="build" location="build"/>
+    <property name="dist" location="dist"/>
+    <property name="test" location="test"/>
+    <property name="version" value="1.0"/>
+    <property name="junit-out" location="junit-out"/>
+    <property name="sonar.organization" value="java-ci-pipeline"/>
+    <property name="sonar.projectKey" value="Daval03_java-ci-pipeline"/>
+    <property name="sonar.sources" value="."/>
+    <property name="sonar.host.url" value="https://sonarcloud.io"/>
+    <property name="sonar.login" value="3ce86821adf8c96b1b7cbe7d2ca4f62c538a1a49"/>
+
+    <target name="init">
+        <tstamp/>
+        <mkdir dir="${build}"/>
+        <mkdir dir="${bin}"/>
+    </target>
+    <target name="compile" depends="init" description="compile the source">
+        <javac srcdir="${src}" destdir="${build}" includeantruntime="no"/>
+        <javac srcdir="${test}" destdir="${bin}" includeantruntime="no" nowarn="yes" debug="true">
+            <classpath>
+                <fileset dir="lib">
+                    <include name="**/*.jar"/>
+                </fileset>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="test" depends="compile" description="run the unit tests">
+        <junitlauncher>
+            <classpath>
+                <pathelement location="bin"/>
+                <fileset dir="lib-test">
+                    <include name="**/*.jar"/>
+                </fileset>
+            </classpath>
+            <testclasses outputdir="${junit-out}">
+                <fileset dir="${build}"/>
+                <listener type="legacy-brief" sendSysOut="true"/>
+                <listener type="legacy-xml" sendSysErr="true" sendSysOut="true"/>
+
+            </testclasses>
+        </junitlauncher>
+    </target>
+    <target name="dist" depends="compile" description="generate the distribution">
+        <buildnumber/>
+        <mkdir dir="${dist}"/>
+        <jar destfile="${dist}/calculadora-${version}.${build.number}.jar" basedir="${build}"/>
+    </target>
+
+    <target name="clean" description="clean up">
+        <delete dir="${build}"/>
+        <delete dir="${dist}"/>
+        <delete dir="${bin}"/>
+    </target>
+    <target name="sonar">
+        <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+            <classpath path="/home/aldo/IdeaProjects/Ejemplos/dist/calculadora-1.0.0.jar"/>
+        </taskdef>
+        <sonar:sonar/>
+    </target>
+</project>

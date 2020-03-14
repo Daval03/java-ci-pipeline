@@ -1,4 +1,6 @@
-package Estructuras_de_datos;
+package Estructuras_de_datos_test;
+
+import Estructuras_de_datos.calculadora;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 class calculadoraTest {
