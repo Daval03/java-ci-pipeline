@@ -7,6 +7,7 @@
     <property name="dist" location="dist"/>
     <property name="test" location="test"/>
     <property name="version" value="1.0"/>
+    <property name="bin" location="build"/>
     <property name="junit-out" location="junit-out"/>
     <property name="sonar.organization" value="java-ci-pipeline"/>
     <property name="sonar.projectKey" value="Daval03_java-ci-pipeline"/>
@@ -24,7 +25,7 @@
         <javac srcdir="${src}" destdir="${build}" includeantruntime="no"/>
         <javac srcdir="${test}" destdir="${bin}" includeantruntime="no" nowarn="yes" debug="true">
             <classpath>
-                <fileset dir="lib">
+                <fileset dir="test">
                     <include name="**/*.jar"/>
                 </fileset>
             </classpath>
